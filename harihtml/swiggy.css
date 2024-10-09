@@ -1,0 +1,264 @@
+/* .one{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    border-style: solid;
+    border-top: none;
+    border-left: none; 
+    border-color: rgb(236, 236, 236);
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 150px;
+    
+}
+
+.one ul {
+    display: flex;
+    list-style: none;
+    height: 100px;
+    margin-right: 50px;
+    align-items: center;
+    width: 100%;
+    position: relative; bottom: 95px;
+    position: relative; right: 150px;
+  
+}
+
+.one li {
+    margin-right: 40px;
+}
+
+.one a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative; left: 700px;
+    
+}
+
+.one a:hover{
+    color: orangered;
+}
+
+#logo {
+    height: 50px;
+    
+}
+
+/* #logo:hover {
+    height: 100px;
+} */
+/* #logo {
+    height: 50px; /* Adjust logo size */
+    /* margin-right: 20px; Space between logo and menu
+} */
+
+
+
+
+/* 
+body {
+    background-color: rgb(241, 249, 255); */
+/* } */ 
+
+
+body {
+    background-color: rgb(256, 256, 256);
+    
+}
+
+.one {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    border-style: solid;
+    border-top: none;
+    border-left: none; 
+    border-color: rgb(236, 236, 236);
+    box-sizing: border-box;
+    padding: 15px 150px; /* Adjust padding to center logo and items */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center items */
+    
+}
+
+.one ul {
+    display: flex;
+    list-style: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    flex-grow: 1; /* Allow ul to take available space */
+    align-items: center; /* Center items vertically */
+    position: relative; left: 380px;
+}
+
+.one li {
+    margin-right: 70px;
+}
+
+.one a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: color 0.3s ease; /* Smooth hover transition */
+  
+
+}
+
+ul ::first-letter {
+    font-weight: 600;
+}
+
+.one a:hover {
+    color: orangered;
+}
+
+#logo {
+    height: 50px; /* Initial height */
+    margin-right: 20px; /* Space between logo and menu */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    position: relative; bottom: 5px;
+    position: relative; right: 50px;
+
+}
+#logo:hover {
+    transform: scale(1.1); /* Increase size slightly on hover */
+ }
+
+ #other {
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-family: sans-serif;
+    position: relative; right: 50px;
+    
+
+
+ }
+
+ #other:hover {
+    color: orangered;
+    border-bottom: solid orangered; 
+ }
+
+.case {
+    position: relative; right: 460px;
+
+    
+}
+
+.search{
+    position: relative; right: 285px;
+    position: relative; top: 2px;
+}
+
+.percentage{
+    position: relative; right: 185px;
+}
+
+
+.help{
+    position: relative; right: 90px;
+}
+
+.sign{
+    position: relative; right: 5px;
+}
+
+.cart {
+    position: relative; left: 95px;
+    position: relative; top: 2px;
+}
+/* 
+section{ */
+    /* margin-left: 200px;
+    margin-right: 200px; */
+/* } */
+
+#para {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size:larger;
+    margin-left: 180px;
+}
+
+.food1 {
+    display: flex;
+    height: 200px;
+    overflow: scroll;
+    width: 1000px;
+    margin-left: 180px;
+    margin-right: 180px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+#line1 {
+    position: relative; top: 30px;
+    
+}
+
+#para2 {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size:larger;
+    margin-left: 180px;
+    position: relative; top: 70px;
+}
+
+#kfc {
+    height: 147px;
+}
+
+.food2 {
+    display: flex;
+    position: relative;
+    height: 160px;
+    width: 200px;
+    margin-left: 180px;
+    border-radius: 10px;
+    position: relative; top: 100px;
+    gap: 40px;
+    transition: transform 0.3s ease;
+    
+}
+
+.food2 img {
+    border-radius: 5%;
+    width:220px ;
+    transition: transform 0.3s ease;
+    
+}
+
+
+.wok img:hover {
+    transform: scale(0.9);
+}
+
+.kfc img:hover {
+    transform: scale(0.9);
+}
+
+.subway img:hover {
+    transform: scale(0.9);
+}
+
+.burger img:hover {
+    transform: scale(0.9);
+}
+
+.food2 p {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size:larger;
+    position: relative; bottom: 10px;
+
+ 
+}
+
